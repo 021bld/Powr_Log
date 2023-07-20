@@ -41,7 +41,7 @@ Powr_Log is an Arduino-based power monitoring project that utilizes the INA219 c
 
 5. Insert the SD card into the SD card module.
 
-6. Power on the system and observe the current, voltage, and power readings on the LCD.
+6. Power on the system and observe the voltage, current, power and readings on the LCD.
 
 ## Circuit Schematic
 
