@@ -8,18 +8,17 @@ Powr_Log is an Arduino-based power monitoring project that utilizes the INA219 c
 ## Features
 
 - Accurate and precise current, voltage, and power measurement with the INA219 sensor.
-- Real-time display of current (in mA), voltage (in V), and power (in mW) on the 16x2 LCD.
+- Real-time display of voltage (in V), current (in mA), power (in mW) and energy (mWh) on the 16x2 LCD.
 - Energy consumption logging to an SD card in "TIME.txt", "VOLT.txt", and "CUR.txt" files.
-- Flexible and customizable for different load types and power ranges.
+- Flexible and customizable for different load types and power ranges. Current Range from -3.2A to +3.2A with resolution of 1mA and Voltage range of 0V to 26V with resolution is 4mV.
 - Easy-to-use Arduino code for quick setup and integration into your projects.
 
 ## Hardware Requirements
 
 - Arduino board (e.g., Arduino Uno, Arduino Nano).
 - INA219 current sensor breakout board.
-- 16x2 LCD display (compatible with the Hitachi HD44780 driver).
+- 16x2 LCD display.
 - SD card module (SPI communication).
-- Current shunt resistor appropriate for your application.
 - Power supply and load to be measured.
 
 ## Software Requirements
@@ -38,7 +37,7 @@ Powr_Log is an Arduino-based power monitoring project that utilizes the INA219 c
 
 3. Upload the "powr_log.ino" sketch to your Arduino board.
 
-4. Ensure your SD card is correctly formatted (FAT16/FAT32).
+4. Ensure your SD card is correctly formatted (FAT32).
 
 5. Insert the SD card into the SD card module.
 
@@ -50,7 +49,7 @@ Powr_Log is an Arduino-based power monitoring project that utilizes the INA219 c
 
 ## Usage
 
-- The LCD will display the current (in mA), voltage (in V), and power (in mW) readings.
+- The LCD will display the voltage (in V), current (in mA), power (in mW) and energy (mWh) readings.
 
 - The system will log the timestamp, voltage, and current readings in the "TIME.txt," "VOLT.txt," and "CUR.txt" files on the SD card, respectively.
 
