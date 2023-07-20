@@ -2,7 +2,8 @@
 
 Powr_Log is an Arduino-based power monitoring project that utilizes the INA219 current sensor, a 16x2 LCD, and an SD card module. This project allows you to measure, display, and log real-time current, voltage, and energy consumption of connected loads, making it ideal for tracking power usage in various electronic applications.
 
-![Demo](demo.jpg)
+![Powr Log](Powr_Log.jpg)
+![Display Info](Display_Info.jpg)
 
 ## Features
 
